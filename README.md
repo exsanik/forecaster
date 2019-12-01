@@ -1,5 +1,5 @@
 # Forecaster
-1. to start replace API key by yours here: forecaster/src/services/config.js
+1. to start replace OpenWeather API key (get it here: https://openweathermap.org/) by yours here: forecaster/src/services/config.js
 2. run: `npm run dev` 
 
 # link: https://forecaster-react.herokuapp.com/
