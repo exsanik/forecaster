@@ -1,0 +1,51 @@
+.wrapper{
+    margin: 10px;
+    align-items: baseline;
+}
+.github {
+    font-size: 1.4rem;
+    height: 60px;
+    line-height: 60px;
+}
+
+.logo a{
+    height: 60px;
+    color: #9fc1c4;
+}
+
+.logo a:hover{
+    text-decoration: none;
+}
+
+.logo i {
+    position: relative;
+    color: black;
+    right: -20px;
+}
+
+.github a {
+    color: gray;
+ }
+
+ .github a:hover {
+    color: #9fc1c4;
+    text-decoration: none;
+ }
+
+@media only screen and (max-width: 500px) {
+    .logo{
+        margin-top: 0.5rem;
+    }
+    .logo a {
+        height: 40px;
+        font-size: 2.5rem;
+    }    
+    .github {
+        display: none;
+    }
+
+    .logo i {
+        font-size: 2.3rem;
+        right: -18px;
+    }
+}

@@ -1,0 +1,47 @@
+.hour-item {
+    position: absolute;
+    bottom: 15px;
+    font-weight: bold;
+}
+
+.hour-item i {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 1150px) {
+    .hour-item {
+        font-weight: bold;
+        font-size: 0.85rem;
+    }
+    
+    .hour-item i {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .hour-item {
+        font-weight: bold;
+        font-size: 0.62rem;
+    }
+    
+    .hour-item i {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .hour-item {
+        font-weight: bold;
+        font-size: 0.57rem;
+    }
+    
+    .hour-item i {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}

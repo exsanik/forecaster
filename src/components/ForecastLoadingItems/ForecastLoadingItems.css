@@ -1,0 +1,25 @@
+.forecast-loading-block-wrapper {
+    background: linear-gradient(to top left,  rgba(70, 133, 120, 0.4), rgba(70, 133, 120, 0.4), rgb(224, 217, 217), rgba(70, 133, 120, 0.4), rgba(70, 133, 120, 0.4));
+    background-size: 400% 400%;
+    animation: gradient 2s ease infinite; 
+}
+
+.city-loading-name {
+    background: linear-gradient(to top left,  black, black, rgb(224, 217, 217), black, black);
+    background-size: 400% 400%;
+    animation: gradient 2s ease infinite; 
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+

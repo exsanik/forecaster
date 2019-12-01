@@ -1,0 +1,45 @@
+.weather-loading-item {
+    width: 80%;
+    margin-top: 4%;
+    margin-bottom: -2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 200px;
+    color: white;
+    border-radius: 7px;
+    background: linear-gradient(to top left, #9fc1c4, #9fc1c4, #9fc1c4, rgb(224, 217, 217), #9fc1c4, #9fc1c4, #9fc1c4);
+    background-size: 400% 400%;
+    animation: gradient 2s ease infinite; 
+}
+
+.weather-loading-item h3 {
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .weather-loading-item  {
+        height: 150px;
+        width: 90%;
+        margin-bottom: -2%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .weather-loading-item h3 {
+        padding-top: 25px;
+        padding-left: 30px;
+    }
+}

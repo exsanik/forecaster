@@ -1,0 +1,109 @@
+.forecast-block-wrapper {
+    position: relative;
+    background-color: rgba(70, 133, 120, 0.4);
+    height: auto;
+    min-height: 220px;
+    width: 80%;
+    margin-bottom: 1.25rem;
+    border-radius: 10px;
+    padding: 1.5rem;
+    padding-top: 2.3rem
+}
+
+.day-forecast-wrapper {
+    width: 70%;
+}
+
+.hour-items-wrapper {
+    margin-left: 0.7rem;
+    margin-top: 5rem;
+}
+
+.additional-info {
+    margin-left: 10px;
+    width: 30%;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.additional-info i {
+    color: white
+}
+
+.additional-info div {
+    color: white
+}
+
+.additional-info h4 span {
+    color: white;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 1150px) {
+    .hour-items-wrapper {
+        margin-left: 0.2rem;
+        margin-top: 2rem;
+    }
+    .additional-info {
+        margin-left: 10px;
+        font-size: 1.1rem;
+    }
+    .additional-info h4 {
+        font-size: 1.2rem;
+    }
+    .forecast-block-wrapper {
+        min-height: 200px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .additional-info {
+        margin-right: 40px;
+        font-size: 0.8rem;
+    }
+    .additional-info h4 {
+        font-size: 0.9rem;
+    }
+    .additional-info h4 span {
+        font-size: 0.8rem;
+    }
+    .additional-info i {
+        font-size: 0.8rem;
+    }
+    .forecast-block-wrapper {
+        min-height: 200px;
+    }
+    .forecast-block-wrapper {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .forecast-block-wrapper {
+        min-height: 170px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .additional-info {
+        margin-right: 40px;
+        font-size: 0.75rem;
+    }
+    .additional-info h4 {
+        font-size: 0.75rem;
+    }
+    .additional-info h4 span {
+        font-size: 0.75rem;
+    }
+    .additional-info i {
+        font-size: 0.75rem;
+    }
+    .forecast-block-wrapper {
+        min-height: 165px;
+    }
+    .forecast-block-wrapper {
+        width: 90%;
+    }
+}

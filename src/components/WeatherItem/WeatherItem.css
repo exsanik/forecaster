@@ -1,0 +1,192 @@
+.weather-item {
+    height: 200px;
+    background: #9fc1c4;
+    color: white;
+    border-radius: 7px;
+    width: 80%;
+    margin-bottom: -2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+button:active, a:focus {
+    outline: 0;
+    border: none;
+  }
+
+.forecast-button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    margin-left: -10px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.forecast-button:hover {
+    box-shadow: -1px 1px 1px 0px rgba(0,0,0,0.75);
+}
+
+.refresh{
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.delete {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.delete i {
+    cursor: pointer;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.delete :hover {
+    color: #d9534f;
+}
+
+.refresh :hover {
+    color: white;
+}
+
+.refresh i {
+    transform: rotate(90deg);
+    font-size: 2rem;
+    color: black;
+}
+
+.city-info {
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 50px;
+    line-height: 8px;
+}
+
+.city-info h3 {
+    font-weight: bold;
+}
+
+.city-info h3 i {
+    color: black;
+}
+
+.city-info .detail-info {
+    color: black;
+    font-weight: 500;
+    padding-left: 3px;
+}
+
+.params {
+    padding-top: 25px;
+    padding-right: 50px;
+    width: 200px
+}
+
+.params .temperature {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.params .humidity i {
+    font-size: 1.5rem;
+}
+
+.params .humidity {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.params .wind {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.params .wind i {
+    font-size: 1.8rem;
+}
+
+
+@media(max-width: 850px) {
+    .city-info h3 {
+        font-size: 1.4rem
+    }
+    .params {
+        padding-top: 25px;
+        padding-right: 10px;
+        font-size: 0.9rem;
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .weather-item {
+        height: 150px;
+        width: 90%;
+        margin-bottom: -2%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .city-info {
+        width: 100%;
+        padding-top: 25px;
+        padding-left: 20px;
+        line-height: 8px;
+    }
+
+    .forecast-button {
+        width: 100px;
+        font-size: 0.75rem;
+        height: 40px;
+        margin-bottom: 25px;
+        margin-left: 0px;
+    }
+    .city-info {
+        font-size: 0.75rem
+    }
+    .city-info h3 {
+        font-size: 1rem
+    }
+    .params {
+        padding-top: 25px;
+        padding-right: 10px;
+        width: 120px;
+        font-size: 0.9rem
+    }
+    .params .temperature {
+        font-size: 0.9rem
+    }
+    .params .humidity i {
+        font-size: 0.9rem;
+    }
+    
+    .params .humidity {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    
+    .params .wind {
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+
+    .params .wind span {
+        font-size: 0.9rem;
+    }
+    
+    .params .wind i {
+        font-size: 0.9rem;
+    }
+    
+}
