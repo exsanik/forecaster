@@ -7,7 +7,7 @@
 
 How to use:
 1. Add new city.
-Input new city in grey box and click on auto complete suggestion (you can also input country in format: **Kharkiv, UA**) _olny English language supported_
+Input new city in grey box and click on auto complete suggestion (you can also input country in format: **Kharkiv, UA**) _only English language supported_
 2. Enjoy weather or check forecast by clicking on `Check forecast`
 
   
