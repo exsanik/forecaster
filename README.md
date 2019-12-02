@@ -4,9 +4,10 @@
 2. run: `npm run dev` 
 
 # link: https://forecaster-react.herokuapp.com/
-__olny English language supported__
+
 How to use:
 1. Add new city.
 Input new city in grey box and click on auto complete suggestion (you can also input country in format: **Kharkiv, UA**)
 2. Enjoy weather or check forecast by clicking on `Check forecast`
+_olny English language supported_
   
