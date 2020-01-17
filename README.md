@@ -3,7 +3,7 @@
 (get API key here: https://openweathermap.org/)
 2. run: `npm run dev` 
 
-# link: https://forecaster-react.herokuapp.com/
+# link: https://fore.now.sh/
 
 How to use:
 1. Add new city.
